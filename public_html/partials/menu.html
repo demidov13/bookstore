@@ -1,0 +1,22 @@
+﻿<div ng-controller="menuCtrl">
+    <div class="contacts">
+        <a class="contant-a" ng-class="{active:isActive('/about')}" ng-href="#/about"><i class="fa fa-envelope-o" aria-hidden="true"></i>Контакты</a>
+    </div>
+    <div class="bas-div">
+        <a class="basket" ng-class="{active:isActive('/basket')}" ng-href="#/basket">Оформить заказ<i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+    </div>    
+    <nav>
+        <div>
+            <a class="buttonNav1" ng-class="{active:isActive('/all')}" ng-href="#/all">Все</a>
+            <a class="buttonNav1" ng-class="{active:isActive('/detective')}" ng-href="#/detective">Детективы</a>
+            <a class="buttonNav1" ng-class="{active:isActive('/fantasy')}" ng-href="#/fantasy">Фэнтези</a>
+            <a class="buttonNav1" ng-class="{active:isActive('/horror')}" ng-href="#/horror">Ужасы</a>
+        </div>
+        <div>
+            <a class="buttonNav2" ng-class="{active:isActive('/thriller')}" ng-href="#/thriller">Триллеры</a>
+            <a class="buttonNav2" ng-class="{active:isActive('/mystic')}" ng-href="#/mystic">Мистика</a>
+            <a class="buttonNav2" ng-class="{active:isActive('/adventure')}" ng-href="#/adventure">Приключения</a>
+            <a class="buttonNav2" ng-class="{active:isActive('/novel')}" ng-href="#/novel">Романы</a>
+        </div>
+    </nav>
+</div>

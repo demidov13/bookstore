@@ -1,0 +1,261 @@
+﻿body {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    background-image:url("../images/fon1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.incl {
+    flex-basis:100%;
+     display:flex;
+    justify-content:center;
+}
+
+/*Навигационная часть:*/
+
+@font-face {
+    font-family: Asia;
+    src: url(../fonts/ASIA_AS2.ttf);
+   }
+nav {
+    width: 720px;
+    background-image:url("../images/papirus.png");
+    background-repeat:no-repeat;
+    height: 250px;
+    position:relative;
+    text-align:center;
+    padding:10px 0 0 0;
+    font-family: Asia;
+    font-size:30px;
+}
+.buttonNav1 {
+    margin:2.5px;  
+    padding: 10px;
+    position:relative;
+    top:50px;
+    cursor:pointer;
+}
+.buttonNav2 {
+    margin:2.5px;
+    padding:10px;
+    position:relative;
+    top:70px;
+    cursor:pointer;
+}
+.basket {
+    flex-basis:auto;
+    cursor:pointer; 
+}
+.bas-div {
+    position:absolute;
+    right:0px;
+    font-family: Asia;
+    font-size:30px;
+    margin:10px;
+}
+.contacts {
+    position:absolute;
+    left:0px;
+    font-family: Asia;
+    font-size:30px;
+    margin:10px;
+    opacity:0.8;
+}
+a, a:visited {
+    color:#2B1C14; 
+}
+a:hover {
+    text-decoration:none;
+    color:#A25916;
+}
+a:active {
+    text-decoration:none;
+}
+a:visited {
+    text-decoration:none;
+}
+.contant-a, .contant-a:visited {
+    flex-basis:auto;
+    cursor:pointer; 
+    color:#F39D44;
+    margin-left:10px;
+}
+.contact-a:hover {
+    text-decoration:none;
+    color:black;
+}
+.fa-shopping-basket {
+    margin:10px;
+    font-size:25px;
+}
+.fa-envelope-o {
+    display:inline-block;
+    margin-right:5px;
+    margin-top:5px;
+    font-size:25px;
+}
+content {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    width:1100px;
+    box-sizing:border-box;
+    opacity:0.9;
+    /*border: 1px solid red;*/
+    line-height:0.85;
+    font-size:12px;
+}
+.div-book {
+    flex-basis:30%;
+    box-sizing:border-box;
+    display:flex;
+    position:relative;
+    flex-wrap:nowrap;
+    margin:10px;
+    padding:10px;
+    box-shadow: 5px 5px 5px #A25916;
+    background-image:url("../images/fon4.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+.div-img {
+    display:inline-block; 
+    /*border: 1px solid black;*/  
+    float:left; 
+    margin-right:10px;
+}
+.text-div {
+    display:inline-block; 
+    /*border: 1px solid black;*/
+}
+.book-title {
+    font-size:14px;
+    font-weight:bold;
+    line-height:1.2;
+}
+.btn-success, .btn-success:hover {
+    color:#434039;
+}
+.btn-info, .btn-info:hover {
+    color:#434039;
+}
+.btn-warning, .btn-warning:hover {
+    color:#434039;
+}
+.button {
+    display:block;
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin:10px;
+}
+#cont-basket {
+    background-color:#FDBD66;
+    box-shadow: 0 0 10px #8A663D;
+    border-radius: 5px;
+    opacity:0.8;
+    position:relative;
+    padding-bottom:90px;
+    margin-bottom:20px;
+
+}
+.pay-button {
+    display:inline-block;
+    position:absolute;
+    bottom:0;
+    left:40%;
+    margin:20px;
+
+}
+.div-sum {
+    box-sizing:border-box;
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin:30px;
+    font-size:20px;
+    font-weight:bold;
+}
+.basket-div {
+    background-color:#F0AD4E;
+    background-image:none;
+    margin:30px 10px 0px 10px;
+}
+.head-basket {
+    flex-basis:100%;
+    background-color:#DF954A;
+    border-radius: 5px;
+    margin:0;
+    padding:0;
+    text-align:right;
+}
+.form-group {
+    padding:15px;
+    font-size:20px;
+}
+#id-client {
+    margin-left:10px;
+}
+.button-id {
+    margin-right:15px;
+}
+.client-div {
+    font-size:20px;
+}
+.name-client {
+    display:inline-block;
+    float:left;
+    padding:15px;
+}
+.cash-client {
+    display:inline-block;
+    float:right;
+    padding:23px;
+}
+#cont-about {
+    background-color:#FDBD66;
+    box-shadow: 0 0 10px #8A663D;
+    border-radius: 5px;
+    opacity:0.9;
+    position:relative;
+    padding-bottom:30px;
+    margin-bottom:20px;
+}
+.about-div {
+    padding:15px;
+    margin:10px;
+    margin-bottom:0;
+    font-size:18px;
+    line-height:1;
+    color:black;
+    flex-basis:100%;
+    box-sizing:border-box;
+}
+#map{
+	flex-basis:1040px;
+    box-sizing:border-box;
+	height:500px;
+    margin-top:10px;
+}
+#bold {
+    font-weight:bold;
+}
+.head-search {
+    flex-basis:94%;
+    background-color:#F0AD4E;
+    opacity:0.9;
+    border-radius: 5px;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#id-search {
+    margin-left:10px;
+}
+.button-search {
+    background-color:#F39D44;
+    font-weight:bold;
+}
